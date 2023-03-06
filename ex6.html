@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Git HUB</title>
+</head>
+
+<body>
+    <script>
+
+        var continuar = true
+        while (continuar) {
+            var num1 = prompt('Digite um número')
+            num1 = parseFloat(num1)
+            var num2 = prompt('Digite outro número')
+            num2 = parseFloat(num2)
+
+            var result
+
+            result = (num1 + num2)
+            alert('A soma dos números e equivale a ' + result)
+
+            var repeticao = prompt('Se deseja continuar, escreva s')
+
+            if (repeticao !== 's') {
+
+                continuar = false
+            }
+        }
+    </script>
+</body>
+
+</html>
